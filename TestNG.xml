@@ -1,0 +1,7 @@
+<suite name = "WebAppClouduze">
+<test name = "WebAppClouduze">
+<classes>
+<class name="com.cloudfuze.testcases.LoginTest"/>
+</classes>
+</test>
+</suite>
