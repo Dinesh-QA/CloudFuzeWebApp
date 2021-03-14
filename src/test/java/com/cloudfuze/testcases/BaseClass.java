@@ -25,7 +25,7 @@ public class BaseClass {
 	@BeforeSuite
 	public void Baseclass() throws IOException, InterruptedException {
 		ReadingConfig read = new ReadingConfig();
-		System.setProperty("webdriver.chrome.driver", "D://Drivers/chromedriver.exe"); 
+		System.setProperty("webdriver.chrome.driver", "./TestData/chromedriver.exe"); 
 		driver = new ChromeDriver(); 
 		driver.get(read.url());
 		System.out.println(read.url());
